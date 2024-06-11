@@ -1,5 +1,7 @@
 package com.nskl.nskl_spring.entry;
 
+import com.baomidou.mybatisplus.annotation.SqlCondition;
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 import lombok.ToString;
 
@@ -14,9 +16,11 @@ import lombok.ToString;
 @ToString
 public class UserInfo {
     private Integer id;
+    @TableField(condition = "%s&lt;#{%s}")
     private String username;
     private String password;
     // 个人展示信息
+    @TableField(value = "name", condition = SqlCondition.LIKE)
     private String nickName; //昵称，默认用户名
     private String features; //爱好
     private String project;  //项目
