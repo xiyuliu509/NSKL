@@ -15,6 +15,9 @@ import lombok.ToString;
 @Data
 @ToString
 public class UserInfo {
+    /**
+     * id
+     */
     private Integer id;
     @TableField(condition = "%s&lt;#{%s}")
     private String username;
