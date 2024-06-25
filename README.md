@@ -126,3 +126,21 @@ NSKL-程序猿共享交流中心，旨在为程序员提供一个分享和交流
     - 文章列表页面显示文章的标题、摘要、作者、发布时间和浏览量。
     - 用户可以通过分类、标签和关键词对文章进行搜索和筛选。
     - 文章列表支持分页显示，用户可以通过分页控件翻页查看更多文章。
+  
+克隆项目
+
+bash
+复制代码
+git clone https://github.com/your-repo/nskl-frontend.git
+cd nskl-frontend
+安装依赖
+
+bash
+复制代码
+npm install
+运行项目
+
+bash
+复制代码
+npm run serve
+项目将运行在 http://localhost:8080。
