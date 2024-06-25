@@ -5,25 +5,10 @@
 NSKL-程序猿共享交流中心-基于vue和springboot的博客管理平台
 ## NSKL-程序猿共享交流中心
 
-开发环境
-JDK：1.8
-Spring Boot：2.6.13
-Spring Cloud：2021.0.3
-MySQL：8.0.31
-Maven：3.6.3
-依赖组件
-Spring Boot Starter Web
-Spring Data JPA
-MySQL Connector
-FastJSON
-Spring Boot Starter Test
-Spring Boot DevTools
-Lombok
-Spring Security
-Spring Cloud OpenFeign
-Spring Boot Actuator
-Spring Cloud Nacos
-MyBatis
+### 前后端框架介绍
+
+#### 前端：Vue.js + Element UI
+#### 后端：SpringBoot + Mybatis
 
 ### 项目总体情况介绍
 
