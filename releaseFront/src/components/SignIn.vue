@@ -56,19 +56,19 @@
          rules: {
           username: [
             { required: true, message: '请输入账号', trigger: 'blur' },
-            { min: 3, max: 64, message: '长度在 3 到 64 个字符', trigger: 'blur' }
+            { min: 3, max: 64, message: '长度在 3  到  64 个字符', trigger: 'blur' }
           ],
              nickname: [
             { required: true, message: '请输入用户名', trigger: 'blur' },
-            { min: 1, max: 64, message: '长度在 1 到 64 个字符', trigger: 'blur' }
+            { min: 1, max: 64, message: '长度在 1  到  64 个字符', trigger: 'blur' }
           ],
           password: [
             { required: true,validator: validatePass, trigger: 'blur' },
-            { min: 6, max: 64, message: '密码长度必须在 6 到 64 个字符', trigger: 'blur' }
+            { min: 6, max: 64, message: '密码长度必须在  6  到  64  个字符', trigger: 'blur' }
           ],
           checkPass: [
             { required: true,validator: validatePass2, trigger: 'blur' },
-            { min: 6, max: 64, message: '密码长度必须在 6 到 64 个字符', trigger: 'blur' }
+            { min: 6, max: 64, message: '密码长度必须在 6  到 64  个字符', trigger: 'blur' }
           ],
           email:[
             { required: true, message: '请输入邮箱地址', trigger: 'blur' },
